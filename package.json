@@ -4,10 +4,9 @@
   "description": "it's an API used like a simple DB, built on the json-server",
   "main": "index.js",
   "scripts": {
-    "db": "json-server --watch db.json",
-    "build": "json-server --watch db.json"
+    "start": "node index.js",
+    "db": "json-server --watch db.json"
   },
-  "heroku-run-build-script": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jPee2k/api-comments-section.git"
