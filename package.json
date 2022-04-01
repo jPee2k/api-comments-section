@@ -1,0 +1,29 @@
+{
+  "name": "api-comments-section",
+  "version": "1.0.0",
+  "description": "it's an API used like a simple DB, built on the json-server",
+  "main": "index.js",
+  "scripts": {
+    "db": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jPee2k/api-comments-section.git"
+  },
+  "keywords": [
+    "api",
+    "json-server",
+    "heroku",
+    "db",
+    "comments-section"
+  ],
+  "author": "jPee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jPee2k/api-comments-section/issues"
+  },
+  "homepage": "https://github.com/jPee2k/api-comments-section#readme",
+  "dependencies": {
+    "json-server": "0.17.0"
+  }
+}
